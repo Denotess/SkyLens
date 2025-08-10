@@ -1,0 +1,23 @@
+{
+  "name": "hypixel-sb-bot",
+  "version": "1.0.0",
+  "description": "Full-featured Hypixel Skyblock Discord bot (SkyCrypt + Hypixel + AH/BZ + calculators)",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src --exec node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "better-sqlite3": "^8.0.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.0",
+    "node-cache": "^5.1.2",
+    "pretty-ms": "^8.0.0",
+    "nbt": "^2.1.0"
+  }
+}
